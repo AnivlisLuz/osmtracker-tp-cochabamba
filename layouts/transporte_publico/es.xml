@@ -1,33 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <layouts>
 	<layout name="root">
+
+		<!-- NOTA (línea, tipo de vehículo, observaciones) -->
 		<row>
 			<button type="textnote" icon="text_32x32" />
 		</row>
-		<row>
-			<button type="tag" label="Parada de Bus - Poste Señalizado" icon="/transporte_publico_icons/parada_bus_1.png" />
-			<button type="tag" label="Parada de Bus - Techo sin asientos" icon="/transporte_publico_icons/parada_bus_2.png" />
-			<button type="tag" label="Parada de Bus - Techo con asiento" icon="/transporte_publico_icons/parada_bus_3.png" />
-		</row>
 
-		<row>
-			<!-- <button type="tag" label="parada Informal" icon="/transporte_publico_icons/parada_informal.png" />-->
-			<button type="tag" label="Aborda Mujer" icon="/transporte_publico_icons/mujer_aborda.png" />
-			<button type="tag" label="Desciende Mujer" icon="/transporte_publico_icons/mujer_desciende.png" />
-			<button type="tag" label="Aborda Hombre" icon="/transporte_publico_icons/hombre_aborda.png" />
-		</row>
-		<row>
-			<button type="tag" label="Desciende Hombre" icon="/transporte_publico_icons/hombre_desciende.png" />
-			<button type="tag" label="Aborda PMR" icon="/transporte_publico_icons/pmr_aborda.png" />
-			<button type="tag" label="Desciende PMR" icon="/transporte_publico_icons/pmr_desciende.png" />
-		</row>
-
+		<!-- RUTA -->
 		<row>
 			<button type="tag" label="Inicio de ruta" icon="/transporte_publico_icons/Inicio_ruta.png" />
 			<button type="tag" label="Fin de ruta" icon="/transporte_publico_icons/bus_terminal.png" />
-			<!-- <button type="picture" label="Photo" icon="logo_camera"/>-->
 		</row>
-		
-	</layout>
 
+		<!-- PARADA -->
+		<row>
+			<button type="tag" label="Parada" icon="/transporte_publico_icons/parada_bus_1.png" />
+		</row>
+
+	</layout>
 </layouts>
